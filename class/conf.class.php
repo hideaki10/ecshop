@@ -1,4 +1,8 @@
 <?php
+/*
+定義ファイルのクラス
+*/
+
 
 class conf {
 	protected  static $ins = null;
