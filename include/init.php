@@ -9,7 +9,7 @@ define('DEBUG',true);
 
 require(ROOT.'include/class/db.class.php');
 require(ROOT.'include/class/conf.class.php');
-
+require(ROOT.'include/log.php');
 
 
 //过滤参数 用递归方式过滤
