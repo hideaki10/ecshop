@@ -1,6 +1,6 @@
 <?php
 
-
+defined('key') || exit('ホームページにアクセスしてください');
 function _addslashes($arr){
 
 	foreach ($arr as $k => $v){
