@@ -120,10 +120,16 @@ class db {
   }
 
   public function getLastId(){
-    $hoge=$this->pdo();
-    $id=$hoge->lastInsertId();
+    $db=$this->pdo();
+    $id=$db->lastInsertId();
     return $id;
   }
+  // public function getId(){
+  //   $db=$this->pdo();
+  //   $sql='select last_insert_id()';
+  //   $stmt=$db->query($sql);
+  //   return $stmt;
+  // }
 
   //行数をカウントする
   public function rowCount($stmt){

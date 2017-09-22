@@ -41,6 +41,9 @@ $_COOKIE = _addslashes($_COOKIE);
 
 //PHPエラーの種類の設定
 
+//
+session_start();
+
 if(defined('DEBUG')){
 	error_reporting(E_ALL);
 }

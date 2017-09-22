@@ -10,13 +10,36 @@ class CatModel extends Model{
 	
 	//項目の表示
 	public function select(){
-		$sql='select cat_id,cat_name,num,intro,parent_id from category';
+		$sql='select cat_id,cat_name,intro,parent_id from category';
 		return $this->db->select($sql);
 	}
 
 	public function find($cat_id){
 		$sql='select * from category where cat_id = '.$cat_id;
 		return $this->db->selectRow($sql);
+	}
+
+
+	//項目の数
+	public function count($data,$cat_id){
+		$total = 0;
+
+		$sql = 'select parent_id from '.$this->table." where cat_id =".$cat_id;
+		$p_id=$this->db->selectOne($sql);
+		
+		if($p_id != 0){
+			$sql ='select count(*) from goods where cat_id = '.$cat_id;
+			return $this->db->selectOne($sql);
+		}
+		else{
+			$tree=$this->getCatTree($data,$cat_id);
+
+			foreach ($tree as $k => $v) {
+				$sql ='select count(*) from goods where cat_id = '.$v['cat_id'];
+				$total+=$this->db->selectOne($sql);
+			}
+			return $total;
+		}
 	}
 
 
@@ -54,7 +77,7 @@ class CatModel extends Model{
 			}
 		}			
 		}
-		return $tree;
+		return array_reverse($tree);
 	}
 
 	//項目の削除

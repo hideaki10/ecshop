@@ -89,6 +89,10 @@ class Model{
     	$sql='select * from '.$this->table.' where '.$this->pk.' = '.$id;
 		return $this->db->selectRow($sql);
     }
+
+    public function insert_id(){
+    	return $this->db->getLastId();
+    }
 }
 
 ?>

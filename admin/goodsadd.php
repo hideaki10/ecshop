@@ -1,4 +1,5 @@
 <?php
+
 define('key',true);
 require('../include/init.php');
 

@@ -7,7 +7,7 @@ $data = array();
 
 $data['cat_name'] = $_POST['cat_name'];
 $data['parent_id']=$_POST['parent_id']+0;
-$data['num']=$_POST['num'];
+//$data['num']=$_POST['num'];
 $data['intro']=$_POST['intro'];
 
 $cat_id=$_POST['cat_id'];
