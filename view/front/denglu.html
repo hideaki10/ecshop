@@ -15,8 +15,8 @@
 </head>
 
 <body>
-<div class="blockfull">
-
+<!-- <div class="blockfull"> -->
+<!-- 
 
 
 <div style="position:relative;z-index:999999" class="block">
@@ -26,7 +26,7 @@
         <div class="member_login f_l">
               			 <font id="ECS_MEMBERZONE"><div id="append_parent"></div>
  &nbsp;&nbsp;&nbsp;&nbsp;
- <a href="#">登录</a> | <a href="#">注册</a>
+<a href=login.php>ログイン</a> | <a href=reg.php>登録</a>
  </font>            
             </div>
 
@@ -144,51 +144,50 @@
 <img src="./view/front/images/car.gif">
 <a title="查看购物车" href="#">购物车中有 <b>1</b> 件商品 合计 <b>￥799.00元</b></a>
 <a style="position:absolute; top:30px; right:0px;" href="#"><img src="./view/front/images/jiesuan.gif"></a>
-</div>
+</div> -->
 
 
-</div>
-
+<!-- head導入 -->
+<?php include (ROOT.'view/front/header.html');?>
 <div class="blank"></div>
-</div>
+
 
 
 <div class="block block1">
-  当前位置: <a href="#">首页</a> <code>&gt;</code> 用户中心 <div class="blank"></div>
+<a href="index.php">ホームページ</a> <code>&gt;</code> 会員登録 <div class="blank"></div>
 
 
 <div class="usBox clearfix">
   <div class="usBox_1 f_l">
    <div class="logtitle"></div>
-   <div style="color:#999; padding:30px 20px 10px 30px;">已注册用户请从这里登录</div>
+   <div style="color:#999; padding:30px 20px 10px 30px;"></div>
    <form method="post" action="login.php" name="formLogin">
         <table width="100%" cellspacing="5" cellpadding="3" border="0" align="left" class="user_table">
           <tbody><tr>
-            <td width="15%" align="right">用户名</td>
+            <td width="15%" align="right">ユーザー名</td>
             <td width="85%"><input type="text" class="inputBg" name="username" value="<?php echo $remuser ;?>"></td>
           </tr>
           <tr>
-            <td align="right">密码</td>
+            <td align="right">パスワード</td>
             <td>
             <input type="password" class="inputBg" name="passwd">
             </td>
           </tr>
                     <tr>
-            <td colspan="2"><input type="checkbox" id="remember" name="remember" value="1"><label for="remember">请保存我这次的登录信息。</label></td>
+            <td colspan="2"><input type="checkbox"  id="remember" name="remember" value="1"><label for="remember">オートログイン</label></td>
           </tr>
           <tr>
             <td>&nbsp;</td>
             <td align="left">
             <input type="hidden" value="act_login" name="act">
            <!--  <input type="hidden" value="http://www.zhongyis.com/category.php?id=17" name="back_act"> -->
-            <input type="submit" class="us_Submit" value="ログイン" name="submit">
+            <input type="submit"  value="" name="submit" style="background-image: url('./view/front/images/bnt_ur_reg01.jpg');width:80px;height:25px;">
+            <!-- <a href="login.php"><img src="./view/front/images/bnt_ur_reg01.jpg" value="ログイン" name="submit"  alt=""> -->
 			<!-- <a name="fastlogin" href="#"><img width="115" height="25" src="./view/front/images/alipayLogin_new.png"></a> -->
             </td>
           </tr>
 	  <tr><td></td>
-      
-      
-      <td style="padding-top:80px;"><a class="f3" href="#">密码问题找回密码</a>&nbsp;&nbsp;&nbsp;<a class="f3" href="#">注册邮件找回密码</a></td></tr>
+      <td style="padding-top:10px;"><a class="f3" href="#">パスワードを忘れてしまった方</a>
       </tbody></table>
     </form>
     <div class="blank"></div>
@@ -196,15 +195,15 @@
   <div class="usTxt">
   <div class="regtitle"></div>
   <div style="padding-left:50px; padding-top:25px;">
-    <p style="color:#999">如果您不是会员，请注册</p> <br>
-    <strong class="f4">友情提示：</strong><br>
-    不注册为会员也可在本店购买商品<br>
+    <p style="color:#999"></p> <br>
+    <strong class="f4">新規登録（無料）はこちら</strong><br>
+<!--     不注册为会员也可在本店购买商品<br>
     但注册之后您可以：<br>
     1. 保存您的个人资料<br>
     2. 收藏您关注的商品<br>
     3. 享受会员积分制度<br>
-    4. 订阅本店商品信息  <br>
-    <a href="#"><img src="./view/front/images/bnt_ur_reg.gif"></a>
+    4. 订阅本店商品信息  <br> -->
+    <a href="reg.php"><img src="./view/front/images/bnt_ur_reg2.jpg"></a>
   </div>
    </div>
 </div>
@@ -213,7 +212,7 @@
 
 
  <div class="blank"></div>
-    
+ <!--    
 
         	<div class="help_lib">
             	<div class="help_cats clearfix">
@@ -267,43 +266,9 @@
  	
 </div>
 <div class="blank"></div>
-<div style="text-align:center"></div>
+<div style="text-align:center"></div> -->
 
-<div class="page_footer block">
-	<div class="foot_nav">
-    	<div class="block">
-             	<div class="nav_list">
-
-
-                        <a href="http://www.zhongyis.com/article.php?id=2" style="padding:0 3px 0 5px">隐私保护</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/article.php?id=5" style="padding:0 3px 0 5px">公司简介</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/article.php?id=4" style="padding:0 3px 0 5px">联系我们</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/article.php?id=3" style="padding:0 3px 0 5px">在线客服</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/article.php?id=1" style="padding:0 3px 0 5px">加盟政策</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/article.php?id=57" style="padding:0 3px 0 5px">团购优惠</a>  
-            
-            
-                          |
-                                    <a href="http://www.zhongyis.com/myship.php" style="padding:0 3px 0 5px">配送方式</a>  
-            
-            
-                         
-
-
-</div></div></div></div></body>
+ <!-- footer        -->
+ <?php include (ROOT.'view/front/footer.html')?>
+</body>
 </html>

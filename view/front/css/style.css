@@ -710,7 +710,7 @@ visibility:hidden;
 .goods_gallery .gleft{ background:url(../images/gleft.gif) no-repeat; width:18px; height:80px; cursor:pointer; margin-right:2px;}
 .goods_gallery .gright{ background:url(../images/gright.gif) no-repeat; width:18px; height:80px; cursor:pointer; margin-left:2px;}
 .goods_gallery .gcontent div{ width:70px; height:70px; overflow:hidden; border:2px solid #cecece; margin:0px 0}
-.goods_gallery .gcontent div.curr{ width:70px; height:70px; overflow:hidden; border:2px solid #369;}
+.goods_gallery .gcontent div.curr{ width:85px; height:70px; overflow:hidden; border:2px solid #369;}
 .goods_gallery .gcontent div img{ width:70px;}
 
 
@@ -720,7 +720,7 @@ visibility:hidden;
 .tab_navs .tabNav{ float:left; padding-left:10px;}
 
 .tab_navs .tabNav a{  display:block; width:112px; height:21px; line-height:20px; padding-top:5px; text-align:center; background:#ccc ;color:#666; text-decoration:none; font-weight:bold;}
-.tab_navs .tabNav a.curr{  display:block; width:112px; height:26px; line-height:28px; text-align:center; background:#333; color:#fff; font-weight:bold; padding-top:0px;}
+.tab_navs .tabNav a.curr{  display:block; width:120px; height:26px; line-height:28px; text-align:center; background:#333; color:#fff; font-weight:bold; padding-top:0px;}
 
 .tabs{ margin:0px 0px; border-top:1px solid #e6e6e6}
 .tabs .tabItem{ padding:10px 0;}
@@ -859,7 +859,7 @@ visibility:hidden;
     .logtitle{height:25px; background:url(../images/user_tit1.gif) no-repeat 0px 0px; border-bottom:1px solid #565662}
 	.logtitle3{height:25px; background:url(../images/user_tit2.gif) no-repeat 0px 0px;border-bottom:1px solid #565662; margin-bottom:30px;}
     .us_Submit{border:none; width:80px; height:25px; background:url(../images/bnt_ur_log.gif)}
-    .us_Submit_reg{border:none;  width:80px; height:25px; background:url(../images/bnt_ur_reg.gif);}
+    .us_Submit_reg{border:none;  width:80px; height:25px; background:url(../images/bnt_ur_reg2.jpg);}
     .usTxt{width:420px; height:363px; border:1px solid #dcdfe5; padding:20px;  float:right;
     text-align:left;  line-height:23px; padding-left:20px;
     }
