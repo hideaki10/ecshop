@@ -167,15 +167,15 @@
 </div>  -->
 
         <div class="flowBox">
-        <h6><span>商品列表</span><a class="f6" href="flow.php">修改</a></h6>
+        <h6><span>商品リスト</span><a class="f6" href="flow.php">修改</a></h6>
         <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
             <tbody><tr>
-              <th bgcolor="#ffffff">商品名称</th>
+              <th bgcolor="#ffffff">商品</th>
               <!-- <th bgcolor="#ffffff">属性</th> -->
-                            <th bgcolor="#ffffff">市场价</th>
-                            <th bgcolor="#ffffff">本店价</th>
-              <th bgcolor="#ffffff">购买数量</th>
-              <th bgcolor="#ffffff">小计</th>
+                            <th bgcolor="#ffffff">参照価格</th>
+                            <th bgcolor="#ffffff">価格</th>
+              <th bgcolor="#ffffff">数量</th>
+              <th bgcolor="#ffffff">小計</th>
             </tr>
             <?php foreach($items as $k=> $item) { ?>
                         <tr>
@@ -193,14 +193,14 @@
              <?php } ?>
                                  <tr>
               <td bgcolor="#ffffff" colspan="7">
-                            购物金额小计 ￥<?php echo $total;?>元，比市场价 ￥<?php echo $market_total;?>元 节省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%)              </td>
+                            小計￥<?php echo $total;?>円<!-- ，比市场价 ￥<?php echo $market_total;?>元 节省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%)               --></td>
             </tr>
                       </tbody></table>
       </div>
       <div class="blank"></div>
       
                 <div class="flowBox">
-    <h6><span>支付方式</span></h6>
+    <h6><span>お支払い方法</span></h6>
     <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center" id="paymentTable">
             <tbody><tr>
               <th width="5%" bgcolor="#ffffff">&nbsp;</th>
@@ -211,17 +211,16 @@
                         
             <tr>
               <td valign="top" bgcolor="#ffffff"><input type="radio" disabled="true" onclick="selectPayment(this)" iscod="1" value="3" name="payment"></td>
-              <td valign="top" bgcolor="#ffffff"><strong>货到付款</strong></td>
-              <td valign="top" bgcolor="#ffffff">开通城市：北京。 
-货到付款区域：北京市内各高校</td>
-              <td valign="top" bgcolor="#ffffff" align="right"><span id="ECS_CODFEE">￥0.00元</span></td>
+              <td valign="top" bgcolor="#ffffff"><strong>代金引換</strong></td>
+              <td valign="top" bgcolor="#ffffff"> 国内配送のみ。代引手数料がかかります。</td>
+              <td valign="top" bgcolor="#ffffff" align="right"><span id="ECS_CODFEE"></span></td>
             </tr>
                         
             <tr>
               <td valign="top" bgcolor="#ffffff"><input type="radio" onclick="selectPayment(this)" iscod="0" value="4" name="pay"></td>
-              <td valign="top" bgcolor="#ffffff"><strong>网上支付</strong></td>
-              <td valign="top" bgcolor="#ffffff">通过支付宝进行支付，无支付宝帐号的客户也可以用银行卡进行在线支付（前提是银行卡已经开通网上支付功能）。</td>
-              <td valign="top" bgcolor="#ffffff" align="right">￥0.00元</td>
+              <td valign="top" bgcolor="#ffffff"><strong>コンビニ・ATM・ネットバンキング・ 電子マネー払い</strong></td>
+              <td valign="top" bgcolor="#ffffff"></td>
+              <td valign="top" bgcolor="#ffffff" align="right"></td>
             </tr>
                       </tbody></table>
     </div>
@@ -232,22 +231,22 @@
       
     <div class="blank"></div>
     <div class="flowBox">
-    <h6><span>费用总计</span></h6>
+    <h6><span>合計</span></h6>
           <div id="ECS_ORDERTOTAL">
 <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#e5e5e5" align="center">
-    <tbody><tr>
+    <tbody><!-- <tr>
     <td bgcolor="#ffffff" align="right">
        该订单完成后，您将获得                         <font class="f4_b">￥0.00元</font>的购物卡。
           </td>
 
-  </tr>
-    <tr>
+  </tr> -->
+<!--     <tr>
     <td bgcolor="#ffffff" align="right">
       商品总价: <font class="f_orange_bold">￥<?php echo $total; ?>元</font>
                                               </td>
-  </tr>
+  </tr> -->
     <tr>
-    <td bgcolor="#ffffff" align="right"> 应付款金额: <font class="f_orange_bold">￥<?php echo $total; ?>元</font>
+    <td bgcolor="#ffffff" align="right"> ご請求額: <font class="f_orange_bold">￥<?php echo $total; ?>元</font>
   </td>
   </tr>
 </tbody></table>

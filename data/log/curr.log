@@ -2986,3 +2986,797 @@ select cat_id,cat_name,intro,parent_id from category
 select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
 select cat_id,cat_name,intro,parent_id from category
 select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from goods where goods_id = 13
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select * from goods where goods_id = 13
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 13
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from goods where goods_id = 10
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from goods where goods_id = 9
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 4
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =4
+select count(*) from goods where cat_id = 5
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+select * from category where cat_id = 7
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =7
+select count(*) from goods where cat_id = 8
+select count(*) from goods where cat_id = 9
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (7,8,9) order by add_time limit 0,2
+select * from category where cat_id = 10
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =10
+select count(*) from goods where cat_id = 11
+select count(*) from goods where cat_id = 12
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,2
+select * from category where cat_id = 10
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =10
+select count(*) from goods where cat_id = 11
+select count(*) from goods where cat_id = 12
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 2,2
+select * from category where cat_id = 10
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =10
+select count(*) from goods where cat_id = 11
+select count(*) from goods where cat_id = 12
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 4,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092436537'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_on_sale,goods_brief,goods_id,is_hot,is_best,is_new,add_time) values ('','BL2017092436537','0','0','0','','','1','1','','0','0','0','0','1506232475')
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from goods where goods_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092479771'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,goods_id,is_hot,is_best,add_time,ori_img,goods_img,thumb_img) values ('真夜中ごはん','BL2017092479771','2','1180','1200','<p><span style=\"color: rgb(51, 51, 51); font-family: &quot;Hiragino Kaku Gothic Pro W3&quot;, &quot;Hiragino Kaku Gothic ProN&quot;, Meiryo, sans-serif; font-size: small; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;\">第4回 料理レシピ本大賞 【料理部門】コミック賞 受賞!!!</span></p><p><img src=\"/ueditor/php/upload/image/20170924/1506234558857967.jpg\" title=\"1506234558857967.jpg\" alt=\"81dPvHTk+IL.jpg\"/></p>','0.000','30','1','1','','0','0','0','1506234582','data/image/201709/24/fawtrv.jpg','data/image/201709/24/goods_fawtrv.jpg','data/image/201709/24/thumb_fawtrv.jpg')
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from goods where goods_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from goods where goods_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 6,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from goods where goods_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select * from goods where goods_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 2,2
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 4,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 0,2
+select * from category where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =2
+select count(*) from goods where cat_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (2) order by add_time limit 2,2
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 25
+select cat_id,cat_name,intro,parent_id from category
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,goods_id,is_hot,is_best,add_time,ori_img,goods_img,thumb_img) values ('ffff','fff','5','43','fdf','<p>tertretrt</p><p><img src=\"/ueditor/php/upload/image/20170924/1506235582215417.jpg\" title=\"1506235582215417.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','1','','0','0','0','1506235593','data/image/201709/24/m8hf54.jpg','data/image/201709/24/goods_m8hf54.jpg','data/image/201709/24/thumb_m8hf54.jpg')
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092488765'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,goods_id,is_hot,is_best,add_time,ori_img,goods_img,thumb_img) values ('5454','BL2017092488765','5','5435','5354','<p>rer4r</p><p><img src=\"/ueditor/php/upload/image/20170924/1506235621506484.jpg\" title=\"1506235621506484.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','1','','0','0','0','1506235627','data/image/201709/24/phnv9q.jpg','data/image/201709/24/goods_phnv9q.jpg','data/image/201709/24/thumb_phnv9q.jpg')
+select * from goods where is_delete = 0
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 4
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =4
+select count(*) from goods where cat_id = 5
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+select * from category where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =6
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (6) order by add_time limit 0,2
+select * from category where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =6
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (6) order by add_time limit 2,2
+select * from category where cat_id = 5
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =5
+select count(*) from goods where cat_id = 5
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (5) order by add_time limit 0,2
+select * from category where cat_id = 5
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =5
+select count(*) from goods where cat_id = 5
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (5) order by add_time limit 2,2
+select * from goods where goods_id = 26
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092446495'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_on_sale,goods_brief,goods_id,is_hot,is_best,is_new,add_time,ori_img,goods_img,thumb_img) values ('ggrg','BL2017092446495','6','222','222','<p>dad</p><p><img src=\"/ueditor/php/upload/image/20170924/1506236079120488.jpg\" title=\"1506236079120488.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','','0','0','0','0','1506236086','data/image/201709/24/svpigl.jpg','data/image/201709/24/goods_svpigl.jpg','data/image/201709/24/thumb_svpigl.jpg')
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 4
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =4
+select count(*) from goods where cat_id = 5
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+select * from category where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =6
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (6) order by add_time limit 0,2
+select * from category where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =6
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (6) order by add_time limit 2,2
+select * from goods where goods_id = 27
+select cat_id,cat_name,intro,parent_id from category
+select * from category where cat_id = 4
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =4
+select count(*) from goods where cat_id = 5
+select count(*) from goods where cat_id = 6
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,2
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092473344'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,goods_id,is_hot,is_best,add_time,ori_img,goods_img,thumb_img) values ('zhanjiangmian','BL2017092473344','8','tretre','rtret','<p>terter</p><p><img src=\"/ueditor/php/upload/image/20170924/1506238175137421.jpg\" title=\"1506238175137421.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','1','','0','0','0','1506238180','data/image/201709/24/8er7v2.jpg','data/image/201709/24/goods_8er7v2.jpg','data/image/201709/24/thumb_8er7v2.jpg')
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092479360'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_new,is_on_sale,goods_brief,goods_id,is_hot,is_best,add_time,ori_img,goods_img,thumb_img) values ('jidingfan','BL2017092479360','8','323','3213','<p>dad</p><p><img src=\"/ueditor/php/upload/image/20170924/1506238202503773.jpg\" title=\"1506238202503773.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','1','','0','0','0','1506238208','data/image/201709/24/nkpmhd.jpg','data/image/201709/24/goods_nkpmhd.jpg','data/image/201709/24/thumb_nkpmhd.jpg')
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092454253'
+insert into goods (is_hot,is_best,is_new,add_time,goods_sn) values ('0','0','0','1506239462','BL2017092454253')
+select cat_id,cat_name,intro,parent_id from category
+select count(*) from goods where goods_sn= 'BL2017092458564'
+insert into goods (goods_name,goods_sn,cat_id,shop_price,market_price,goods_desc,goods_weight,goods_number,is_on_sale,goods_brief,goods_id,is_hot,is_best,is_new,add_time,ori_img,goods_img,thumb_img) values ('dadad','BL2017092458564','6','55','55','<p>frf</p><p><img src=\"/ueditor/php/upload/image/20170924/1506239496586996.jpg\" title=\"1506239496586996.jpg\" alt=\"189217ce36d3d539227cd0483087e950342ab075.jpg\"/></p>','0.000','1','1','','0','0','0','0','1506239505','data/image/201709/24/ek896b.jpg','data/image/201709/24/goods_ek896b.jpg','data/image/201709/24/thumb_ek896b.jpg')
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 7
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select * from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select * from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select * from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 1
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 7
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5
+select * from category where cat_id = 1
+select cat_id,cat_name,intro,parent_id from category
+select parent_id from category where cat_id =1
+select count(*) from goods where cat_id = 2
+select count(*) from goods where cat_id = 3
+select cat_id,cat_name,intro,parent_id from category
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (1,2,3) order by add_time limit 0,2
+select * from goods where goods_id = 2
+select cat_id,cat_name,intro,parent_id from category
+select * from goods where goods_id = 2
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 2
+select goods_id,goods_name,thumb_img,shop_price,market_price from goods where goods_id = 2
+select count(*) from orderinfo where order_sn= 'BL2017092455409'
+insert into orderinfo (reciver,email,post,best_delivery,address,best_date,tel,best_time,add_time,order_amount,user_id,user_name,order_sn) values ('','maildocgaojingru@163.com','','','','','','','1506260336','500','0','名無し','BL2017092455409')
+select order_id from orderinfo where order_sn = 'BL2017092455409'
+insert into ordergoods (order_id,order_sn ,goods_id,goods_name,goods_number,shop_price,subtotal) values ('9','BL2017092455409','2','ようこそ実力至上主義の教室へ','1','500.00','500')
+update goods set goods_number = goods_number - 1 where goods_id = 2
+select count(*) from orderinfo where order_sn= 'BL2017092421337'
+insert into orderinfo (reciver,email,post,best_delivery,address,best_date,tel,best_time,add_time,order_amount,user_id,user_name,order_sn) values ('','maildocgaojingru@163.com','','','','','','','1506260363','0','0','名無し','BL2017092421337')
+select order_id from orderinfo where order_sn = 'BL2017092421337'
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where is_new=1 order by add_time limit 5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+select cat_id,cat_name,intro,parent_id from category
+select goods_id,goods_name,shop_price,market_price,thumb_img,goods_img from goods where cat_id in (10,11,12) order by add_time limit 0,5

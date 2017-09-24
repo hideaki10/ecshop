@@ -51,8 +51,8 @@ if($act == 'buy'){
 			$market_total+=$v['shop_price']*$v['num'];
 		}
 		$discount =  $market_total-$total;
-		$rate=($discount/$total)*100;
-		
+		$rate=round(($discount/$total)*100,2);
+		//$rate=($discount/$total)*100;
 		 include(ROOT.'view/front/jiesuan.html');
 	}
 

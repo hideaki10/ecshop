@@ -57,7 +57,7 @@ class PageTool{
 
 			
 		}
-		echo $cnt;	
+		//echo $cnt;	
 		return implode(" ",$nav);
 	}
 

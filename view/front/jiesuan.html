@@ -29,42 +29,42 @@
         <form action="./images/jiesuan.htm" method="post" name="formCart" id="formCart">
            <table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
             <tbody><tr>
-              <th style="background:#7a7f89; color:#333">商品名称</th>
-                    <th style="background:#7a7f89; color:#333">属性</th>
-                                          <th style="background:#7a7f89; color:#333">参照価格</th>
-                            <th style="background:#7a7f89; color:#333">価格</th>
-              <th style="background:#7a7f89; color:#333">购买数量</th>
-              <th style="background:#7a7f89; color:#333">小计</th>
-              <th style="background:#7a7f89; color:#333">操作</th>
+              <th style="background:#7a7f89; color:#333">商品</th>
+              <!-- <th style="background:#7a7f89; color:#333">属性</th> -->
+              <th style="background:#7a7f89; color:#333">参照価格</th>
+              <th style="background:#7a7f89; color:#333">価格</th>
+              <th style="background:#7a7f89; color:#333">数量</th>
+              <th style="background:#7a7f89; color:#333">小計</th>
+              <!-- <th style="background:#7a7f89; color:#333">操作</th> -->
             </tr>
             <?php foreach($items as $item) { ?>
 
                         <tr>
               <td bgcolor="#ffffff" align="center">
-                                                      <a target="_blank" href="#"><img border="0" title="<?php echo $item['name'];?>" src="<?php echo $item['thumb_img'];?>"></a><br>
-                    <a class="f6" target="_blank" href="#"><?php echo $item['name'];?></a>
-                                                                                    </td>
+               <a target="_blank" href="#"><img border="0" title="<?php echo $item['name'];?>" src="<?php echo $item['thumb_img'];?>"></a><br>
+              <a class="f6" target="_blank" href="#"><?php echo $item['name'];?></a>
+<!--              </td>
                             <td bgcolor="#ffffff">尺码:165/84A <br>
-</td>
-                                          <td bgcolor="#ffffff" align="right">￥<?php echo $item['shop_price'];?>元</td>
-                            <td bgcolor="#ffffff" align="right">￥<?php echo $item['price'];?>元</td>
-              <td bgcolor="#ffffff" align="right">
+             </td> -->
+             <td bgcolor="#ffffff" align="center">￥<?php echo $item['shop_price'];?>元</td>
+              <td bgcolor="#ffffff" align="center">￥<?php echo $item['price'];?>元</td>
+              <td bgcolor="#ffffff" align="center">
                                 <input type="text" onkeydown="showdiv(this)" style="text-align:center " class="inputBg" size="4" value="<?php echo $item['num'];?>" id="goods_number_449" name="goods_number[449]">
                               </td>
-              <td bgcolor="#ffffff" align="right">￥<?php echo $item['price'] * $item['num'];?>元</td>
-              <td bgcolor="#ffffff" align="center">
-                <a class="f6" href="#">删除</a>
-                            </td>
+              <td bgcolor="#ffffff" align="center">￥<?php echo $item['price'] * $item['num'];?>元</td>
+              <!-- <td bgcolor="#ffffff" align="center">
+                <a class="f6" href="#">削除</a>
+                            </td> -->
             </tr> 
             <?php } ?>
                       </tbody></table>
           <table width="100%" cellspacing="1" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
             <tbody><tr>
               <td bgcolor="#ffffff">
-                            购物金额小计 ￥<?php echo $total;?>元，比市场价 ￥<?php echo $market_total;?>元 节省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%)</td>
+                            小計 ￥<?php echo $total;?>円<!-- ，比市场价 ￥<?php echo $market_total;?>元 节省了 ￥<?php echo $discount;?>元 (<?php echo $rate;?>%) --></td>
               <td bgcolor="#ffffff" align="right">
                 <!--input type="button" onclick="location.href='flow.php?act=clear'" class="bnt_blue_1" value="清空购物车"-->
-                <a href="flow.php?act=clear">清空购物车</a>
+                <a href="flow.php?act=clear">全部削除</a>
                 <input type="submit" value="更新购物车" class="bnt_blue_1" name="submit">
               </td>
             </tr>
@@ -73,7 +73,7 @@
         </form>
         <table width="100%" cellspacing="0" cellpadding="5" border="0" bgcolor="#dddddd" align="center">
           <tbody><tr>
-            <td bgcolor="#ffffff"><a href="#"><img alt="continue" src="./view/front/images/continue.gif"></a></td>
+            <!-- <td bgcolor="#ffffff"><a href="#"><img alt="continue" src="./view/front/images/continue.gif"></a></td> -->
             <td bgcolor="#ffffff" align="right"><a href="flow.php?act=submit"><img alt="checkout" src="./view/front/images/checkout.gif"></a></td>
           </tr>
         </tbody></table>
